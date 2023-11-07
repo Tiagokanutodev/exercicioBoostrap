@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Daima</title>
+    <link rel="icon" type="image/x-icon" href="./imagen/esfera-do-dragao.jpeg" alt="favicon">    <!--favicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"> 
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="http://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+</head>
+<body>    
+    <header>     <!--CABEÇALHO-->
+        <div class="container container-flex">
+            <h1>Dragon Ball Daima</h1>  <!--TITULO-->
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>    
+            </div>
+        </div>        
+    </header>
+    <div id="carousel-imagens">
+        <img src="./imagen/goku-bulma.jpg" alt="Carro da Porche">
+        <img src="./imagen/Imagem-destacada-Dragon-Ball-Super.jpg" alt="Carro da BMW">
+        <img src="./imagen/dbz.jpg" alt="Carro da Ford">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="alert alert-dark">
+                    Confira as novidades de Dragon Ball Daima <a href="#">clicando aqui</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Cadastre-se</h2>
+                <div class="container g-0">                    
+                    <div class="row">
+                        <div class="col">
+                            <form>
+                                <label class="form-label" for="nome">Seu nome:</label>
+                                <input class="form-control" type="text" id="nome">
+                                <label for="email" class="form-label">Seu e-mail</label>
+                                <input type="email" type="email" class="form-control">
+                                <label for="tel" class="form-label">Telefone:</label>
+                                <input type="tel" type="tel" class="form-control">
+                                <div class="form-check">     <!--tirando o I a caixinha muda de lugar-->
+                                    <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                                    <input class="form-check-input" type="checkbox" id="aceito-termos">
+                                </div>   
+                                <button class="btn btn-success">Enviar</button>                             
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2024 &copy; DBD Dragon Ball Daima - Todos os direitos reservados
+            </p>            
+        </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>     <!--plugin js 1-->
+    <script src="./js/jquery.validate.min.js"></script> <!--plugim 2-->
+    <script src="./js/messages_pt_PT.min.js"></script>  <!--PARA TRADUZIR EM PORTUGUES O PLUGIM 2-->
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body> 
+</html>       
